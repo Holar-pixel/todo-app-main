@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+body{
+
+	background-color: rgb(1, 1, 1,);
+}
+.Bx {
+	background-color: rgb(1, 1, 1);
+}
+
+header{
+	display: grid;
+	justify-content: center;
+	background-image: url(./bg-mobile-dark.jpg);
+	margin: 0;
+	position: relative;
+	background-repeat: no-repeat;
+	height: 25vh;
+	background-size: cover;
+}
+.Top {
+
+	padding: 25px;
+}
+#Head {
+	font-size: 45px;
+
+}
+p{
+	display: grid;
+	justify-content: flex-end;
+}
+
+input{
+	background-color: rgb(0, 0, 0, 1);
+	color: #AAA;
+	border-radius: 7px;
+	padding: 20px, 80px;
+	width: 350px;
+	margin-bottom: 20px;
+	
+}
+.BODY  {
+	width: 375px;
+
+}
+#Icon {
+	background-image:url(./bg-mobile-dark.jpg);
+}
+
+
+#Todos  li{
+	background-color: rgba(6, 6, 6, 8);
+	border-radius: 5px;
+	color: #EEE;
+	padding: 10px 40px;
+	list-style: none;
+	border: none; 
+	margin-bottom: 1px;
+	font-size: .8em;
+	position: relative;
+}
+
+#Todos li {
+	background-color: rgb(5, 5, 5,);
+	position: relative;
+	left: 300px;
+	top: 0.5px;
+	transform: translateY(-100%);
+	bottom: 80px;
+}
+
+
+#bottom {
+	background-color: rgb(0, 0, 0);
+	border-radius: 5px;
+	color: #AAA;
+	list-style: none;
+	padding: 5px 40px;
+	border: 0px;
+	margin-left: 300px ;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	width: 375px;
+
+}
+#bottom li {
+	display: inline-flex;
+	padding: 10px;
+
+}
+#bottom :first-child {
+	color: #FAF;
+}
+footer {
+	display: inline-flex;
+	justify-content: center;
+	width: 300px;
+	margin-left: 300px;
+	color: #EEE;
+
+}
